@@ -1,10 +1,14 @@
 body{font-family: 'Ubuntu', sans-serif;
 margin: 0;}
 h1{ font-size: 50px;}
+h2{font-size: 40px;}
 .name {color: orange;}
-section
+.prince2
 {display: flex;
-margin: 150px;}
+margin: 150px;
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;}
 
 
  .prince
@@ -26,14 +30,35 @@ border-right: 10px dotted rgb(179, 94, 14 );
 #topA { background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
 margin: 0;}
+
 #topB {background-image: url(images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;}
-
+.orange {color: orange;}
+.rince
+{width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+#name {border-left: 7px solid;
+    border-image:linear-gradient(rgb(175, 175, 231), rgb(14, 58, 58));
+    border-image-slice:1;
+}
+#name2 {border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice:1;
+}
+footer p {text-align: center;}
+#ex {margin-left: 200px;}
 #button2 {padding: 10px 50px;
 background-color: rgb(187, 132, 60);
 border-radius: 5px;
 font-weight: 800;
 color: rgb(238, 243, 233);
-text-decoration: none;
+text-decoration: none;border-bottom: 10px solid rgb(179, 94, 14);
+border-right: 10px dotted rgb(179, 94, 14 );
+}
 
